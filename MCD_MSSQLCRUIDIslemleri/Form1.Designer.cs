@@ -54,6 +54,7 @@ namespace MCD_MSSQLCRUIDIslemleri
             this.dataGridView1.RowTemplate.Height = 24;
             this.dataGridView1.Size = new System.Drawing.Size(856, 449);
             this.dataGridView1.TabIndex = 0;
+            this.dataGridView1.Click += new System.EventHandler(this.dataGridView1_Click);
             // 
             // btnEkle
             // 
@@ -73,6 +74,7 @@ namespace MCD_MSSQLCRUIDIslemleri
             this.btnGuncelle.TabIndex = 2;
             this.btnGuncelle.Text = "Güncelle";
             this.btnGuncelle.UseVisualStyleBackColor = true;
+            this.btnGuncelle.Click += new System.EventHandler(this.btnGuncelle_Click);
             // 
             // btnSil
             // 
@@ -82,6 +84,7 @@ namespace MCD_MSSQLCRUIDIslemleri
             this.btnSil.TabIndex = 3;
             this.btnSil.Text = "Sil";
             this.btnSil.UseVisualStyleBackColor = true;
+            this.btnSil.Click += new System.EventHandler(this.btnSil_Click);
             // 
             // btnUrunGetir
             // 
